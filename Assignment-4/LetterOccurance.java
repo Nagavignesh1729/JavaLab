@@ -25,6 +25,7 @@ public class LetterOccurance {
                 System.out.println(letter + ": " + countChar[i]);
             }
         }
+        sc.close();
     }
 }
 
