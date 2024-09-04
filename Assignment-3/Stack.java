@@ -60,7 +60,7 @@ class Stack {
         stack.push(20);
         stack.push(30);
         stack.displayStack(); 
-
+        System.out.println("Name: Nagavignesh M\t\t Reg No: 2022503565");
         System.out.println("Top element: " + stack.peek());
 
         System.out.println("Popped element: " + stack.pop());
