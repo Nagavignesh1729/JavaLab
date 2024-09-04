@@ -1,0 +1,88 @@
+Note, need to implement almost everything in recursion or other ways to learn recursive type of thinking.
+
+ASSIGNMENT 4
+
+Course Name: CS6308 Java Programming
+Course Instructor: Jayachitra V P
+Date: 4/09/2024
+Exercise 1: Practice string methods
+Write a java program to perform string methods by considering the given string inputs
+String s1=”Welcome to Java”;
+String s2=s1;
+String s3=new String(“Welcome to Java”);
+String s4=s1.intern();
+
+Exercise 2: String reverse
+Write a java program to read the string and displays the reverse of the string.
+Hint: swap first character with last character until half of the string length
+Exercise 3: Letter occurence
+Write a java program to count the number of occurrence of the each letter in the given string using
+single array
+Hint: int index = 'b' - 'a'; // indicates index 1
+int index = 'c' - 'a'; // indicates index 2
+countChar[index]++;
+ s1 = = s2
+ s2 = = s3
+ s1.equalsIgnoreCase(s2)
+ s2.equals(s3)
+ s1.compareTo(s2)
+ s2.compareTo(s3)
+ s1.equals(s2)
+ s2 == s4
+ s1 + s2
+ s1.charAt(0)
+ s1.indexOf('j')
+ s1.indexOf("to")
+ s1.lastIndexOf('a')
+ s1.lastIndexOf("o", 15)
+ s1.codePointCount(0, s1.length())
+ s1.length()
+
+ s1.substring( 3)
+ s1.substring(1, 3)
+ s1.startsWith("Wel")
+ s1.endsWith("Java")
+ s1.toLowerCase()
+ s1.toUpperCase()
+ “ Hi”.trim()
+ s1.replace('o', 'O')
+ s1.replaceAll("o", "O")
+ s1.replaceFirst("o", "O")
+ s1.split("O")
+ s1.split("O", 4)
+ s1.toCharArray()
+ s1.codePointAt(0)
+ s1.contains("or")
+ String.join("-", s1, s2, s3)
+
+Exercise 4: string extraction
+Write a java program that extracts all numbers from a given string and returns them as a new string.
+For example, "a1b2c3" should return "123"
+Excercise 5: Compression
+Write a Java program that performs string compression using the counts of repeated characters.
+Example string "aabcccccaaa" would become "a2b1c5a3".
+If the "compressed" string would not become smaller than the original string, return the original
+string.
+Exercise 6: Anagram
+Write a java program to check the given string is Anagram or not
+Example1 : Listen vs Silent
+Example 2 : The Morse Code vs Here Come Dots
+Exercise 7: Comparison of product version number
+Write a java program that read a two string of the given format and compares the string
+Example:
+15.10.10 is greater than 14.20.50 as 15 >14
+14.12.10 is greater than 14.10.55 as 12>10
+14.10.15 is greater than 14.10.11 as 15>11
+Hint: GivenString.split(“\\.”). Store each split part in an array and compare
+Exercise 8: Email validity
+Write a java program to compare the email is valid is invalid and retruns the username and domain
+name
+i) Valid Username: numbers[0-9], alphabets[a-z][A-Z], underscore, hypen and plus characters .
+Total number of characters are 25.
+ii) Presence of single @ symbol
+iii) Presence of domain name .com, .in, .edu
+Exercise 9: Dictionary
+Write a java program to create a dictionary using 2D string array any 10 programming languages.
+Write a method that return the definition for the input of PL name.
+Java- pure object oriented programming language by James Gosling
+C++-Object oriented programming language by Stroustrup
