@@ -182,7 +182,7 @@ class SinglyLinkList {
         void concatenate(LinkList list1) {
             Node current = head;
             if(current == null) {
-                current.next = list1.head;
+                current = list1.head;
             }
             while(current.next != null) {
                 current = current.next;
